@@ -13,4 +13,6 @@ class ShowDataModel{
     var posterImage:String = ""
     var showName:String = ""
     var showGenres:String = ""
+    var rating:Double = 0
+    var premieredDate = ""
 }
