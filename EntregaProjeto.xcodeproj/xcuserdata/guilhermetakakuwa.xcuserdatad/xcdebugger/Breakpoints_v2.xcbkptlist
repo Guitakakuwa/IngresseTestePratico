@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TesteDaImagePorUrl/ViewController.swift"
+            timestampString = "574217721.771405"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntregaProjeto.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; EntregaProjeto.ViewController"
+                  moduleName = "EntregaProjeto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guilhermetakakuwa/Documents/Aplicativos%20-%20Curso%20Swift/TesteDaImagePorUrl/TesteDaImagePorUrl/ViewController.swift"
+                  timestampString = "574216646.8212349"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "590">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntregaProjeto.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;EntregaProjeto.ViewController&gt;"
+                  moduleName = "EntregaProjeto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guilhermetakakuwa/Documents/Aplicativos%20-%20Curso%20Swift/TesteDaImagePorUrl/TesteDaImagePorUrl/ViewController.swift"
+                  timestampString = "574216646.82532"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "561">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
