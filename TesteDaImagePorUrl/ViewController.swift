@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var poster1: UIImageView!
     @IBOutlet weak var titulo1: UITextView!
     @IBOutlet weak var genero1: UITextView!
+    @IBAction func buttonShow1(_ sender: Any) {
+    }
+    
     
     //Show 2
     @IBOutlet weak var dateCreated2: UITextView!

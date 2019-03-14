@@ -67,6 +67,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BF8E33D8223AF503002DEB5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BFF38E4C2239CCE500FD73FA = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +95,7 @@
 		BFF38E572239CCE500FD73FA /* TesteDaImagePorUrl */ = {
 			isa = PBXGroup;
 			children = (
+				BF8E33D8223AF503002DEB5D /* View */,
 				BF8E33D5223A9811002DEB5D /* Model */,
 				BFF38E582239CCE600FD73FA /* AppDelegate.swift */,
 				BFF38E5A2239CCE600FD73FA /* ViewController.swift */,
