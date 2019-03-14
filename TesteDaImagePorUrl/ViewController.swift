@@ -21,13 +21,11 @@ class ViewController: UIViewController {
     let showDataModel = ShowDataModel()
     
     let api:String = "http://api.tvmaze.com/search/shows?q=rick"
-    var retornoApi:JSON = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 //       showImage(self)
         getAPI(url:api)
-        setInfoShows()
         titulo1.layer.cornerRadius = 15
         genero1.layer.cornerRadius = 15
         
@@ -37,12 +35,14 @@ class ViewController: UIViewController {
         Alamofire.request(url, method: .get).responseJSON {
             response in
             if response.result.isSuccess {
-                self.retornoApi = JSON(response.result.value!)
+                let retornoApi = JSON(response.result.value!)
+                self.setInfoShows(json:retornoApi)
             }
             else {
                 print("Error \(String(describing: response.result.error))")
             }
         }
+        
     }
     
     func updateUserUI() {
@@ -51,15 +51,15 @@ class ViewController: UIViewController {
         genero1.text = showDataModel.showGenres
     }
     
-    func setInfoShows () {
-        if  let posterImage:String = self.retornoApi[0]["show"]["image"]["medium"].stringValue {
-            print(self.retornoApi)
+    func setInfoShows (json:JSON) {
+        if  let posterImage:String = json[0]["show"]["image"]["medium"].stringValue {
+            print(json)
             print("entrou")
-            showDataModel.posterImage =  self.retornoApi[0]["show"]["image"]["medium"].stringValue
+            showDataModel.posterImage =  json[0]["show"]["image"]["medium"].stringValue
             print(showDataModel.posterImage)
-            showDataModel.showGenres = self.retornoApi[0]["show"]["genres"][0].stringValue
+            showDataModel.showGenres = json[0]["show"]["genres"][0].stringValue
             print(showDataModel.showGenres)
-            showDataModel.showName = self.retornoApi[0]["show"]["name"].stringValue
+            showDataModel.showName = json[0]["show"]["name"].stringValue
             print(showDataModel.showName)
             updateUserUI()
         }

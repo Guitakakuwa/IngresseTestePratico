@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="width" constant="90" id="q51-96-2qU"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Rick and Morty" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5s4-kf-YpK">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5s4-kf-YpK">
                                 <rect key="frame" x="141" y="114" width="109" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="109" id="poc-7k-k2h"/>
@@ -41,7 +41,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Comédia" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Rl-Rb-NjY">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Rl-Rb-NjY">
                                 <rect key="frame" x="271" y="114" width="109" height="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
