@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     @IBAction func buttonShow1(_ sender: Any) {
     }
     
-    
     //Show 2
     @IBOutlet weak var dateCreated2: UITextView!
     @IBOutlet weak var rating2: UITextView!
@@ -48,7 +47,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var titulo4: UITextView!
     @IBOutlet weak var genero4: UITextView!
     
-    
+    //Import de Model
     let showDataModel = ShowDataModel()
     
     let api:String = "http://api.tvmaze.com/search/shows?q=girls"

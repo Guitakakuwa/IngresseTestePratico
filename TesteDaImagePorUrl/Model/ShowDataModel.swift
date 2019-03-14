@@ -15,4 +15,5 @@ class ShowDataModel{
     var showGenres:String = ""
     var rating:Double = 0
     var premieredDate = ""
+    var descricao = ""
 }
